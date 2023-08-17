@@ -79,6 +79,12 @@ ul {
     background-color: #404bbf;
 }
 
+/*explanation*/
+
+.exp-text {
+    letter-spacing: 0.32px;
+}
+
 /*team*/
 
 .team-section {
@@ -89,6 +95,7 @@ ul {
 }
 .team-text {
     font-size: 16px;
+    letter-spacing: 0.32px;
 }
 .list-title {
     color: #2E2F42;
@@ -109,6 +116,13 @@ ul {
 
 /*portfolio*/
 
+.portfolio-text {
+    letter-spacing: 0.32px;
+}
+
+/*basement*/
+
+
 .footer {
     background-color: #2E2F42;
     color: #F4F4FD;
@@ -121,4 +135,7 @@ ul {
     text-transform: uppercase;
     line-height: 1.17;
     letter-spacing: 0.54px;
+}
+.footer-text {
+    letter-spacing: 0.32px;
 }
