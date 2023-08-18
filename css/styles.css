@@ -4,21 +4,15 @@ a {
 ul {
     list-style-type: none;
 }
-.body {
+body {
     font-family: "Roboto", sans-serif;
     color:#434455;
     background-color: white;
     font-size: 16px;
-    line-height: 1.5;
 }
 
 /*header*/
 
-.header {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.54px;
-}
 .nav-logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -26,15 +20,17 @@ ul {
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.17;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
 }
 .logo-studio {
     color: #2E2F42;
 }
 .nav-link {
+    font-size: 16px;
     color: #2E2F42;
     font-weight: 500;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -44,8 +40,10 @@ ul {
     font-style: normal;
 }
 .nav-mail-tel {
+    font-size: 16px;
     color: #434455;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 .nav-mail-tel:hover,
 .nav-mail-tel:focus {
@@ -62,14 +60,14 @@ ul {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 1.12px;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 .hero-button {
     color: #fff;
     background-color: #4D5AE5;
     font-weight: 500;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
     line-height: 1.5;
     cursor: pointer;
 
@@ -79,10 +77,11 @@ ul {
     background-color: #404bbf;
 }
 
-/*explanation*/
+/*quality*/
 
-.exp-text {
-    letter-spacing: 0.32px;
+.qu-text {
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 /*team*/
@@ -95,21 +94,22 @@ ul {
 }
 .team-text {
     font-size: 16px;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 .list-title {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.002em;
 }
 .section-title {
     color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
 }
@@ -117,7 +117,8 @@ ul {
 /*portfolio*/
 
 .portfolio-text {
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 /*basement*/
@@ -134,8 +135,9 @@ ul {
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.17;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
 }
 .footer-text {
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
